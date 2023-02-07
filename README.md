@@ -3,7 +3,7 @@
 # Многопоточность и асинхронность
 1. Асинк, особенности реализации в расте, tokio. Как вообще в целом под капотом все работает. [The What and How of Futures and async/await in Rust (с таймкодом) @JonGjengset](https://www.youtube.com/watch?v=9_3krAQtD2k&t=10018s)
 2. Многопоточность, трейты Send, Sync. [Crust of Rust: Send, Sync, and their implementors @JonGjengset](https://www.youtube.com/watch?v=yOezcP-XaIw)
-3. Синхронизация, Mutex, RwLock. В чем разница, почему у них разные ограничения на типы при одинаковой семантике.
+3. Синхронизация, Mutex, RwLock. В чем разница, почему у них разные ограничения на типы при одинаковой семантике. [When or why should I use a Mutex over an RwLock?](https://stackoverflow.com/questions/50704279/when-or-why-should-i-use-a-mutex-over-an-rwlock)
 
 # Остальное
 1. Умные указатели: Rc, Arc. Для чего нужны, в чем разница, как работают под капотом. [Crust of Rust: Smart Pointers and Interior Mutability @JonGjengset](https://www.youtube.com/watch?v=8O0Nt9qY_vo)
